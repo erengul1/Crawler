@@ -20,10 +20,8 @@ public static void main(String[] args) throws InterruptedException {
 
    myMongo.initialize();
    CrawlerImpl crawler=new CrawlerImpl();
-    WebDriver driver = new ChromeDriver();
-   crawler.extractDataFromSikayetvar(read_times,myMongo,driver);
 
-
+   crawler.extractDataFromSikayetvar(read_times,myMongo);
 
 
             }

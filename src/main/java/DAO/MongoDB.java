@@ -15,7 +15,7 @@ public class MongoDB {
             MongoClient mongoClient = new MongoClient("localhost", 27017);
 
             _db = mongoClient.getDB("test");
-            _collection = _db.getCollection("dummyColl_test5");
+            _collection = _db.getCollection("dummyColl_test4");
 
         } catch (Exception e) {
             e.printStackTrace();
